@@ -1,0 +1,126 @@
+/* styles.css */
+
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Section styles */
+section {
+  padding: 50px;
+}
+
+section h2 {
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+form label,
+form input,
+form textarea,
+form button {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+}
+
+form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Additional Styles */
+/* Header styles */
+header {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #007bff;
+  font-size: 2.5em;
+}
+
+/* Footer styles */
+footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Contact Form styles */
+.contact-info {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.contact-info p {
+  color: #333;
+}
+
+.contact-info ul {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.contact-info ul li {
+  margin-bottom: 5px;
+}
+
+.contact-info ul li a {
+  color: #007bff;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease;
+}
